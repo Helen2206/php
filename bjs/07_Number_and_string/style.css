@@ -6,4 +6,21 @@
 .input-window {
     text-align: end;
     font-size: x-large;
+    margin-bottom: 3px;
+}
+
+.card-body {
+    background: black;
+}
+
+#btn_clr {
+    background-color: brown;
+    color: white;
+    
+}
+
+.btn {
+    background-color: rgb(39, 111, 192);
+    color:white;
+    
 }
