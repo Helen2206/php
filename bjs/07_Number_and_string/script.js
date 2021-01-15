@@ -4,8 +4,7 @@ let operation = null;
 const inputWindow = document.getElementById('inputWindow');
 inputWindow.value = '0';
  
-
-document.getElementById('btn_1').addEventListener('click', function () {
+document.guerySelector('#btn_1').addEventListener('click', function () {
      if (inputWindow.value === '0') {
             inputWindow.value = '';
         }
