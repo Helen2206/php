@@ -2,3 +2,11 @@
     height: 100vh;
     font-family: 'Open Sans', monospace;
 }
+
+#btnRetry {
+  color: black;
+}
+.card-footer {
+    background-color: cadetblue;
+    color: black;
+}
