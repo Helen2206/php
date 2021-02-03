@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css"/>
+      <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body>
 <div class="container">
@@ -16,15 +16,23 @@
                 <div class="card-header">
                     <p class="m-0">Окно результатов генерации</p>
                 </div>
+                  <div class="col">
+                        <div> <button class="btn" id="start">Начать</button> <button class="btn"  id="clear">Очистить</button></div>
+                    </div>
                 <div class="card-body">
                     <div class="row">
                         <div class="col">
-                            <h3 class="card-title"><span id="surnameOutput">Генерация фамилии</span></h3>
+                            <h3 class="card-title">Фамилия: <span id="surnameOutput">Иванов</span></h3>
                             <h4>Имя: <span id="firstNameOutput">Иван</span></h4>
+                            <h4>Отчество: <span id="patronymOutput">Анатольевич</span></h4>
+                            <h5>Профессия: <span id="jobOutput">Маркетолог</span></h5>
                             <p>
-                                <span id="genderOutput">Генерация пола</span>
-                                <span>, </span>
-                                <span id="birthYearOutput">Генерация года рождения</span>
+                                <span id="genderOutput">Пол</span><br>
+                               
+                                <span id="dateOutput">15</span>
+                                <span id="monthOutput">Июнь</span>
+                                <span id="birthYearOutput">Год рождения</span>
+                               
                             </p>
                         </div>
                     </div>

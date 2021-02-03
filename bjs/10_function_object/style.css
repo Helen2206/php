@@ -1,0 +1,21 @@
+.card-body {
+   
+background: #f1f3c2;
+font-style: italic;
+}
+
+.m-0{
+font-family: 'Andika New Basic', sans-serif;
+margin-top: 2px;
+
+}
+
+ .btn {
+ 	border-style: outset;
+ 	font-size: 20px;
+  text-decoration: none;
+
+ }
+ .card-header {
+	background-color: cadetblue;
+ }
